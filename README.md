@@ -16,7 +16,7 @@ https://github.com/ZhengZhangBU/met-cs665-assignment-3
 
 class diagram.pdf or use the link
 
-https://lucid.app/lucidchart/66653754-0918-47bc-9c55-8de88786842e/edit?viewport_loc=878%2C43%2C3495%2C1454%2CHWEp-vi-RSFO&invitationId=inv_84d50062-e25b-4dbd-8481-c4fcfd74b0c0
+https://lucid.app/lucidchart/66653754-0918-47bc-9c55-8de88786842e/edit?viewport_loc=1381%2C43%2C2992%2C1454%2CHWEp-vi-RSFO&invitationId=inv_84d50062-e25b-4dbd-8481-c4fcfd74b0c0
 
 # Implementation Description 
 
