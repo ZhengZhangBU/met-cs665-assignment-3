@@ -7,10 +7,16 @@
 | Assignment # | 3                          |
 
 # Assignment Overview
-
+Company requires an efficient solution to send personalized emails to their customs.
 
 # GitHub Repository Link:
-https://github.com/{YOUR_USERNAME}/cs-665-assignment-{ASSIGNMENT_NUMBER}
+https://github.com/ZhengZhangBU/met-cs665-assignment-3
+
+# Class Diagram
+
+class diagram.pdf or use the link
+
+https://lucid.app/lucidchart/66653754-0918-47bc-9c55-8de88786842e/edit?viewport_loc=878%2C43%2C3495%2C1454%2CHWEp-vi-RSFO&invitationId=inv_84d50062-e25b-4dbd-8481-c4fcfd74b0c0
 
 # Implementation Description 
 
@@ -18,12 +24,20 @@ https://github.com/{YOUR_USERNAME}/cs-665-assignment-{ASSIGNMENT_NUMBER}
 For each assignment, please answer the following:
 
 - Explain the level of flexibility in your implementation, including how new object types can
-be easily added or removed in the future.
+  be easily added or removed in the future.
+  - I define a family of behaviors. The company can select the different email template and easily swap the email template.
+
 - Discuss the simplicity and understandability of your implementation, ensuring that it is
-easy for others to read and maintain.
+  easy for others to read and maintain.
+  - the classes' name with "Generator" are concrete Strategy under `email.generator` package. `EmailGenertorContext` is a concrete strategy object and maintains a reference to our 5 strategy objects. It's easy to read my code and structure.
+
 - Describe how you have avoided duplicated code and why it is important.
+  - I create an abstract class that implements `EmailGenerator` class to a base class for subclasses.
+
 - If applicable, mention any design patterns you have used and explain why they were
-chosen.
+  chosen.
+  - For this assignment, I choose strategy pattern. First, we have 5 similar objects with different email format (I think it can be considered as different behaviors and it's easy to add their own behaviors). Strategy pattern is easily to manage the behaviors. Second, company can select the behaviors, like swap the email templates.
+
 
 
 # Maven Commands
